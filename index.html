@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andreas | Creative Digital Designer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">kodehodeandreas.</div>
+      <nav>
+        <a href="#om">Om meg</a>
+        <a href="#prosjekter">Prosjekter</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <section class="andreas">
+      <div class="andreas-text">
+        <p>Andreas.</p>
+        <h1>
+          FRONT END <br />
+          Engineer
+        </h1>
+      </div>
+      <div class="andreas-image">
+        <img src="meg.jpeg.jpeg" alt="Andreas" class="andreas-image" />
+      </div>
+    </section>
+
+    <section class="info-boxes">
+      <div class="info-box">
+        <h3>DESIGN</h3>
+        <p>
+          Starter fra bunnen eller bygger videre. Fokus på strategi, produkt og
+          løsninger.
+        </p>
+      </div>
+      <div class="info-box">
+        <h3>USER RESEARCH <span class="highlight-dot"></span></h3>
+        <p>Jeg skaper brukervennlige løsninger basert på faktiske behov.</p>
+      </div>
+    </section>
+
+    <section class="container" id="om">
+      <br /><br />
+      <h2>Om meg</h2>
+      <br />
+      <p>
+        Jeg heter Andreas, er 34 år og er bosatt i Bergen. <br /><br />
+        Jeg studerer Frontend-utvikling hos Kodehode i Bergen. Jeg er glad i
+        design, idéutvikling og teknisk problemløsning. Jeg føler ideene kommer
+        lett til meg, og liker å finne ut av hvordan ting fungerer. Jeg jobber
+        med HTML, CSS og JavaScript, og er veldig glad i å samarbeide i team og
+        lære av andre. På fritiden liker jeg gaming, fotball, motorsykkel og å
+        spille piano. Jeg er også glad i å være aktiv ellers, som fjellturer og
+        styrketrening.
+      </p>
+    </section>
+
+    <section class="container" id="prosjekter">
+      <br />
+      <h2>Prosjekter</h2>
+      <br />
+      <p>
+        Her kommer det prosjekter jeg har jobbet med. Jeg vil legge til lenker
+        og bilder når de er klare.
+        <br /><br />
+        <a href="https://github.com/kodehodeandreas">Min Github profil</a>
+      </p>
+    </section>
+
+    <section class="container" id="Mer">
+      <h3>Vil du vite mer om meg?</h3>
+
+      <div class="topic">
+        <button class="toggle-btn">Gaming</button>
+        <div class="topic-content hidden">
+          <p>
+            Jeg liker å prøve ulike typer spill i ulike sjangerer og kategorier,
+            og blir sådan sjelden sittende med samme spillet i 200+ timer – i
+            2024 loggførte jeg faktisk over 80 forskjellige, og har en litt unik
+            evne til å finne noe å like i de fleste sjangerer. Ellers hører jeg
+            nesten daglig på podcaster som Digital Foundry og Kinda funny. Har
+            en RTX4090 Ryzen 7800x3D gaming-PC og PS5 Pro.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic">
+        <button class="toggle-btn">Fotball</button>
+        <div class="topic-content hidden">
+          <p>
+            Tidligere midtbanespiller, spilte fotball aktivt til jeg var 27 år
+            (høyeste nivå: 3. divisjon). Sluttet etter en kneskade i 2017, som
+            preger meg den dag i dag.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic">
+        <button class="toggle-btn">Piano</button>
+        <div class="topic-content hidden">
+          <p>
+            Spiller daglig siden 2017 og begynte med det som et resultat av at
+            jeg sluttet på fotballen og fikk bedre tid til andre ting.
+            Autodidakt, men engasjert og lidenskapelig!
+          </p>
+        </div>
+      </div>
+
+      <div class="topic">
+        <button class="toggle-btn">Motorsykkel</button>
+        <div class="topic-content hidden">
+          <p>
+            Har hatt flere sykler, men nå har jeg en Yamaha R1 som jeg også
+            liker å ta med på bane. Er ellers glad i å følge med på Motogp.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="kontakt">
+      <h2>Kontakt</h2>
+      <p>
+        Ta kontakt på
+        <a href="mailto:kodehodeandreas@gmail.com">kodehodeandreas@gmail.com</a>
+      </p>
+    </section>
+    <br /><br />
+
+    <footer>
+      <p>© 2025 Andreas. Alle rettigheter forbeholdt.</p>
+    </footer>
+    <script>
+      document.querySelectorAll(".toggle-btn").forEach((button) => {
+        button.addEventListener("click", () => {
+          const content = button.nextElementSibling;
+          content.classList.toggle("show");
+        });
+      });
+    </script>
+  </body>
+</html>
