@@ -53,12 +53,12 @@ nav a:hover {
 }
 
 .andreas-image {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: auto;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 60%;
   aspect-ratio: 1 / 1;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(169, 234, 5, 0.773);
   filter: grayscale(100%);
 }
 
