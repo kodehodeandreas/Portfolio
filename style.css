@@ -24,6 +24,7 @@ header {
   color: #9fef00;
   font-weight: bold;
   font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 
 nav {
@@ -34,6 +35,7 @@ nav {
 a {
   color: #9fef00;
   text-decoration: none;
+  letter-spacing: 1.5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -45,7 +47,7 @@ a:hover {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.42rem;
   transition: 0.3s;
 }
 
@@ -70,7 +72,7 @@ nav a:hover {
   border-radius: 0%;
   filter: grayscale(100%);
   border: 0px solid #9fef00;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.071);
+  box-shadow: 0 0 20px rgba(161, 197, 2, 0.595);
   z-index: 101;
   margin-bottom: -60px;
 }
@@ -100,12 +102,14 @@ nav a:hover {
 
 .andreas-text p {
   font-size: 2.5rem;
-  color: #ccc;
+  letter-spacing: 1px;
+  color: #959494;
   margin: 0;
 }
 
 .andreas-text h1 {
   font-size: 5rem;
+  letter-spacing: 2px;
   line-height: 1.1;
   font-weight: bold;
   text-transform: uppercase;
@@ -140,6 +144,7 @@ h1 {
 
 .info-box h3 {
   font-size: 1.9rem;
+  letter-spacing: 2px;
   color: #fff;
   margin-bottom: 0.5rem;
 }
@@ -147,6 +152,7 @@ h1 {
 .info-box p {
   color: #bbb;
   font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 .highlight-dot {
@@ -170,6 +176,8 @@ footer {
   max-width: 800px;
   margin-left: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: large;
   padding: 10px 20px;
   color: white;
 }
@@ -195,6 +203,7 @@ footer {
   border: none;
   color: #9fef00;
   font-size: 1.1rem;
+  letter-spacing: 2.5px;
   cursor: pointer;
   padding: 0.5rem 0;
   text-align: left;
