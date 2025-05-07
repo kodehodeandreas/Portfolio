@@ -139,20 +139,20 @@ h1 {
 }
 
 .info-box h3 {
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   color: #fff;
   margin-bottom: 0.5rem;
 }
 
 .info-box p {
   color: #bbb;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .highlight-dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   background-color: #9fef00;
   border-radius: 50%;
   margin-left: 0.5rem;
