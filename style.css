@@ -72,7 +72,7 @@ nav a:hover {
   border-radius: 0%;
   filter: grayscale(100%);
   border: 0px solid #9fef00;
-  box-shadow: 0 0 20px rgba(161, 197, 2, 0.595);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.192);
   z-index: 101;
   margin-bottom: -60px;
 }
